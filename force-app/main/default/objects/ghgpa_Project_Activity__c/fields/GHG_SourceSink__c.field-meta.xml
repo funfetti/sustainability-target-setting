@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GHG_SourceSink__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Source is any process that releases GHG emissions into the atmosphere. A GHG sink is any process that removes and stores GHG emissions from the atmosphere.</inlineHelpText>
+    <label>GHG Source/Sink</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Combustion - Grid Connected</fullName>
+                <default>false</default>
+                <label>Combustion - Grid Connected</label>
+            </value>
+            <value>
+                <fullName>Combustion - Off Grid/Flaring</fullName>
+                <default>false</default>
+                <label>Combustion - Off Grid/Flaring</label>
+            </value>
+            <value>
+                <fullName>Industrial Process</fullName>
+                <default>false</default>
+                <label>Industrial Process</label>
+            </value>
+            <value>
+                <fullName>Fugitive</fullName>
+                <default>false</default>
+                <label>Fugitive</label>
+            </value>
+            <value>
+                <fullName>Sink: Waste</fullName>
+                <default>false</default>
+                <label>Waste</label>
+            </value>
+            <value>
+                <fullName>Biological Process</fullName>
+                <default>false</default>
+                <label>Biological Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

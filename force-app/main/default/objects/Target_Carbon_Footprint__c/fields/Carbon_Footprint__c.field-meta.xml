@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carbon_Footprint__c</fullName>
+    <externalId>false</externalId>
+    <label>Carbon Footprint</label>
+    <referenceTo>sustain_app__ConsumptionReport__c</referenceTo>
+    <relationshipLabel>Target Carbon Footprints</relationshipLabel>
+    <relationshipName>Target_Carbon_Footprints</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
