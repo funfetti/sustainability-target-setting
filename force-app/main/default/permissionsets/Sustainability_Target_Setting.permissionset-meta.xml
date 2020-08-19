@@ -226,11 +226,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Target__c.Geographic_Scope__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Target__c.Target_Completion_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>

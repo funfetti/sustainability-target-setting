@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Sustainability_Audit</application>
+    <masterLabel>Electricity Emissions Factors</masterLabel>
+    <templateAssetSourceName>Electricity_Emissions_Factors_tp</templateAssetSourceName>
+</WaveDataset>

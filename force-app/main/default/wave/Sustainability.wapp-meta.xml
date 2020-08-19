@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/16.png</assetIcon>
+    <description>Bring your environmental accounting in line with your financial accounting with key performance indicators about your organization’s energy use. Use the app’s dashboards to measure, report on, and disclose your environmental impact data.</description>
+    <folder>Sustainability</folder>
+    <masterLabel>Sustainability</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>test-kroyseil3dia@example.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sustain_app__Sustainability</templateOrigin>
+    <templateVersion>1.18</templateVersion>
+</WaveApplication>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/16.png</assetIcon>
+    <description>Dive deep into your organization&amp;#39;s energy and carbon data with the Audit dashboard. Examine the accuracy, completeness, quality, variance, and year-over-year trends of your greenhouse gas inventory.</description>
+    <folder>Sustainability_Audit</folder>
+    <masterLabel>Sustainability Audit</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>test-kroyseil3dia@example.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sustain_app__Sustainability_Audit</templateOrigin>
+    <templateVersion>1.14</templateVersion>
+</WaveApplication>

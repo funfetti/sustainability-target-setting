@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>CFOA</dataset>
+    <dimensions>
+        <field>OrganizationalAsset.Name</field>
+        <isDerived>false</isDerived>
+        <label>Organizational Asset Name</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>OrganizationalAsset.sustain_app__BusinessRegion__c</field>
+        <isDerived>false</isDerived>
+        <label>Asset Business Region</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>OrganizationalAsset.sustain_app__CBECSRegion__c</field>
+        <isDerived>false</isDerived>
+        <label>Asset CBECS Region</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>OrganizationalAsset.sustain_app__Country__c</field>
+        <isDerived>false</isDerived>
+        <label>Asset Country</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>RecordType.Name</field>
+        <isDerived>false</isDerived>
+        <label>Record Type Name</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>OrganizationalAsset.sustain_app__City__c</field>
+        <isDerived>false</isDerived>
+        <label>Asset City</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+</WaveXmd>
